@@ -19,6 +19,8 @@ monitrc file for monitoring Sendmail mail server.
 %description -l pl.UTF-8
 Plik monitrc do monitorowania serwera poczty Sendmail.
 
+%prep
+
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_sysconfdir}/monit
